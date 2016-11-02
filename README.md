@@ -3,4 +3,4 @@ Projects related to machine learning alogo and api.
 
 # Script NaiveBayes
 
-Simple script to predict name and female name. 
+Simple script to predict Male and Female name. 
