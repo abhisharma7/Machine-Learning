@@ -19,8 +19,8 @@ def process_content():
 			words = nltk.word_tokenize(i)
 			tagged = nltk.pos_tag(words)
 		
-			#chunkGram = r"""Chunk: {<RB.?>*<VB.?>*<NNP.?>*<NN>?}"""
-			chunkGram = r"""Chunk: {<NNP.?>*}"""
+			chunkGram = r"""Chunk: {<RB.?>*<VB.?>*<NNP>+<NN>?}"""
+			#chunkGram = r"""Chunk: {<NNP.?>*}"""
 			chunkParser = nltk.RegexpParser(chunkGram)
 			chunked = chunkParser.parse(tagged)
 			#if re.search('^(Chunk.+ )?',str(chunked)):		
