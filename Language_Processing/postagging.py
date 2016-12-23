@@ -15,7 +15,7 @@ def process_content():
 
 	try:
 		for i in tokenized:
-			print(i)
+			#print(i)
 			words = nltk.word_tokenize(i)
 			tagged = nltk.pos_tag(words)
 			print(tagged)
