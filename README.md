@@ -1,5 +1,5 @@
 # Machine-Learning
-Projects related to machine learning alogo and api.
+Projects related to machine learning algos and api.
 
 # Script NaiveBayes
 
